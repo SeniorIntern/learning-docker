@@ -1,5 +1,1 @@
-FROM node:alpine
-COPY . /app
-WORKDIR /app
-CMD node app.js
-
+FROM node:20.3.0-alpine3.18
